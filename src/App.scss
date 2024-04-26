@@ -1,0 +1,20 @@
+.App{
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+.container-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin: 90px auto 140px auto;
+}
+
+@media (max-width: 769px) {
+    .container-products{
+        height: auto;
+    }
+}

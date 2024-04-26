@@ -1,0 +1,88 @@
+.card {
+  width: 220px;
+  height: 319px;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.card-image {
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 0px auto 12px auto;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.price-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  flex: 1;
+}
+
+.buy-button {
+  background-color: #373737;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 5px;
+  align-self: flex-start; 
+  margin-top: 2px;
+}
+
+.subtitle {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: #2c2c2c;
+  font-size: 10px;
+  font-weight: 300;
+  padding-right: 36px;
+}
+
+.full-width-button {
+  width: 100%;
+  background-color: #0f52ba;
+  color: #fff;
+  border: none;
+  border-radius: 0px 0px 8px 8px;
+  text-align: center; 
+  cursor: pointer;
+  padding: 2px 0px 2px 0px;
+  position: absolute;
+  bottom: 0;
+}
+
+.full-width-button p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 5px;
+}
+
+.full-width-button img{
+    width: 17px ;
+    height: 15.5px;
+}
+
+.full-width-button p, .full-width-button img{
+  display: inline-block;
+}
